@@ -39,22 +39,24 @@ body {
 .hero-inner { position: relative; z-index: 1; width: min(100%, 680px); }
 
 .school-mark {
-  width: 88px;
-  height: 88px;
-  margin: 0 auto 19px;
-  padding: 5px;
-  border-radius: 14px;
-  display: grid;
-  place-items: center;
-  background: #fff;
-  box-shadow: 0 5px 18px rgba(0,0,0,.15);
+    width: 88px;
+    height: 88px;
+    margin: 0 auto 19px;
+    padding: 5px;
+    border-radius: 14px;
+    display: grid;
+    place-items: center;
+    background: #fff;
+    box-shadow: 0 5px 18px rgba(0,0,0,.15);
 }
 
 .school-mark img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .eyebrow, .section-kicker {
