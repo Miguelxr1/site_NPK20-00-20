@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap');
 
 :root {
-  --forest: #244b3b;
-  --forest-deep: #17382d;
-  --sage: #dce8d9;
-  --cream: #f8f7f0;
-  --paper: #fffefa;
-  --ink: #26352e;
-  --muted: #68766d;
-  --gold: #d8b66d;
+    --forest: #B5A477;
+    --forest-deep: #171717;
+    --sage: #E8DFC9;
+    --cream: #F8F6F0;
+    --paper: #FFFFFF;
+    --ink: #171717;
+    --muted: #625D52;
+    --gold: #B5A477;
 }
-
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 
@@ -203,4 +202,60 @@ footer p { margin: 3px 0; }
   .nutrient { padding-inline: 4px; }
   .nutrient small { font-size: .68rem; }
   .steps li { grid-template-columns: 36px 1fr; gap: 10px; }
+}
+
+/* Identidade visual PMMG: caqui e preto */
+
+.hero {
+    background: linear-gradient(
+        145deg,
+        #171717,
+        #353027
+    );
+}
+
+.eyebrow {
+    color: #D6C49A;
+}
+
+h2 {
+    color: #171717;
+}
+
+.intro h2 span {
+    color: #9A8352;
+}
+
+.nutrient-symbol {
+    background: #171717;
+}
+
+.nutrient.zero .nutrient-symbol {
+    background: #B5A477;
+}
+
+.nutrient strong {
+    color: #171717;
+}
+
+.step-number {
+    background: #E8DFC9;
+    color: #171717;
+}
+
+.closing {
+    background: #E8DFC9;
+    color: #171717;
+}
+
+.closing-icon {
+    color: #927A49;
+}
+
+footer {
+    background: #171717;
+}
+
+.footer-motto {
+    color: #D6C49A;
 }
